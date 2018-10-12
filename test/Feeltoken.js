@@ -1,10 +1,10 @@
-const WATT = artifacts.require("WATT");
+const FLT = artifacts.require("FLT");
 const allowance = web3.toBigNumber(500).mul(10**18);
 
-contract("WattToken", function ([owner, alice, bob]) {
+contract("Feeltoken", function ([owner, alice, bob]) {
     let instance;
     beforeEach('setup contract for each test', async function () {
-        instance = await WATT.new();
+        instance = await FLT.new();
     })
     it('owner owns all tokens', async function () {
         balance = (await instance.balanceOf(owner)).toNumber();

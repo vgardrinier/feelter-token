@@ -2,10 +2,10 @@ pragma solidity ^0.4.23;
 
 import "openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
-contract WATT is StandardToken {
+contract FLT is StandardToken {
 
-    string public constant name = "WorkChain App Token";
-    string public constant symbol = "WATT";
+    string public constant name = "Feelter App token";
+    string public constant symbol = "FLT";
     uint8 public constant decimals = 18;
 
     uint256 public constant INITIAL_SUPPLY = 1000000000 * (10 ** uint256(decimals));
