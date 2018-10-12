@@ -1,14 +1,14 @@
 {
-  "name": "watt-token",
+  "name": "feelter-token",
   "version": "1.1.1",
-  "description": "ERC20 token used on WorkChain.io platform.",
+  "description": "ERC20 token used on Feelter.",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/workchainio/watt-token.git"
+    "url": "git+https://github.com/vgardrinier/feelter-token.git"
   },
   "keywords": [
     "blockchain",
@@ -17,12 +17,11 @@
     "work",
     "token"
   ],
-  "author": "Ivan Petrovic",
+  "author": "Victor Gardrinier",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/workchainio/watt-token/issues"
+    "url": "https://github.com/vgardrinier/feelter-token/issues"
   },
-  "homepage": "https://workchain.io",
   "scripts": {
     "start": "truffle compile",
     "test": "truffle test",
